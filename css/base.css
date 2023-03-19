@@ -1,0 +1,15 @@
+body {
+  background-color: black;
+}
+
+section {
+  margin-top: 2rem;
+}
+
+.navbar {
+  width: 500px;
+}
+
+.contact-sales {
+  margin-left: 1rem;
+}/*# sourceMappingURL=base.css.map */
