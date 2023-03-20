@@ -56,8 +56,9 @@ header {
 }
 
 .btn-secondary {
-  margin: 30px 20px 100px 20px;
+  margin: 50px 20px 50px 20px;
   --bs-btn-active-bg: rgba(255, 255, 255, 0.2) !important;
+  --bs-btn-color: #646262 !important;
   --bs-btn-bg: transparent !important;
   --bs-btn-border-color: transparent !important;
   --bs-btn-hover-border-color: transparent !important;
@@ -65,5 +66,6 @@ header {
 }
 
 .btn-secondary:hover {
+  color: #fff !important;
   background-color: rgba(255, 255, 255, 0.2) !important;
 }/*# sourceMappingURL=base.css.map */
