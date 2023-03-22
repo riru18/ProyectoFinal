@@ -12,19 +12,22 @@
     <title>Document</title>
 </head>
 
-<body>
+<body class="bg-black">
     <!-- Contact sales header -->
-    <div class="top-b d-inline-flex justify-content-center align-items-center">
-        <p>🤖<a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ipsum nisi nulla?</a></p><a
-            type="button" class="btn btn-sm btn-danger contact-sales" href="./request_demo.html">Contact Sales</a>
+    <div class="top-b justify-content-center align-items-center d-none d-lg-flex">
+        <p>🤖<a href="#" class="me-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ipsum nisi nulla?</a></p><a
+            type="button" class="btn btn-sm btn-danger" href="./request_demo.html">Contact Sales</a>
         <!-- Style sales button -->
     </div>
 
-    <header class="d-inline-flex sticky-top justify-content-around align-items-center">
-        <div>
-            <nav class="navbar navbar-expand-lg bg-black">
+    <header class="d-inline-flex sticky-top  align-items-center bg-black w-100">
+        
+            <div class="d-inline-flex justify-content-around w-100">
+                <div><a class="navbar-brand fs-1" href="#">taskade</a></div>
+            <div>
+            <nav class="navbar navbar-expand-lg ">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">taskade</a>
+                    <a type="button" class="btn btn-danger d-lg-none me-2 fw-bold">Sign up</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                         data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <span class="navbar-toggler-icon"></span>
@@ -69,19 +72,18 @@
                                 <li class="nav-item">
                                     <a class="nav-link active" href="./pricing.html">Pricing</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active" href="./login.html">Login</a>
-                                </li> <!-- Necesito que esta opcion aparezca cuando entre el breakpoint -->
                             </ul>
+                            <div class="d-inline-flex mx-5">
+                                <a type="button" class="btn btn-outline-danger d-none d-lg-block me-2 " href="./login.html">Log in</a>
+                                <a type="button" class="btn btn-danger d-none d-lg-block">Sign up for free</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </nav>
+            </div>
         </div>
-        <div>
-            <a type="button" class="btn btn-outline-danger">Log in</a>
-            <a type="button" class="btn btn-danger">Sign up for free</a>
-        </div>
+
     </header>
 
 
@@ -91,32 +93,37 @@
                 <h2>Build a second brain for your teams.</h2>
             </div>
 
-            <div class="container d-flex justify-content-center align-items-center">
+            <div class="d-flex justify-content-center align-items-center">
 
+                <div>
                 <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
-                <label class="btn btn-lg btn-secondary" for="option1"><i class="fa-solid fa-robot"></i>
+                <label class="btn btn-lg btn-secondary mx-sm-3 my-5" for="option1"><i class="fa-solid fa-robot"></i>
                     <p>AI Writer</p>
-                </label>
+                </label></div>
 
+                <div>
                 <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
-                <label class="btn btn-lg btn-secondary" for="option2"><i class="fa-solid fa-robot"></i>
+                <label class="btn btn-lg btn-secondary mx-sm-3 my-5" for="option2"><i class="fa-solid fa-robot"></i>
                     <p>AI Writer</p>
-                </label>
+                </label></div>
 
+                <div>
                 <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off">
-                <label class="btn btn-lg btn-secondary" for="option3"><i class="fa-solid fa-robot"></i>
+                <label class="btn btn-lg btn-secondary mx-sm-3 my-5" for="option3"><i class="fa-solid fa-robot"></i>
                     <p>AI Writer</p>
-                </label>
+                </label></div>
 
+                <div>
                 <input type="radio" class="btn-check" name="options" id="option4" autocomplete="off">
-                <label class="btn btn-lg btn-secondary" for="option4"><i class="fa-solid fa-robot"></i>
+                <label class="btn btn-lg btn-secondary mx-sm-3 my-5" for="option4"><i class="fa-solid fa-robot"></i>
                     <p>AI Writer</p>
-                </label>
+                </label></div>
 
+                <div>
                 <input type="radio" class="btn-check" name="options" id="option4" autocomplete="off">
-                <label class="btn btn-lg btn-secondary" for="option4"><i class="fa-solid fa-robot"></i>
+                <label class="btn btn-lg btn-secondary mx-sm-3 my-5" for="option4"><i class="fa-solid fa-robot"></i>
                     <p>AI Writer</p>
-                </label>
+                </label></div>
             </div>
 
             <div class="container d-flex justify-content-center">

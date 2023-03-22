@@ -1,7 +1,3 @@
-body {
-  background-color: black !important;
-}
-
 section {
   margin-top: 2rem;
 }
@@ -16,11 +12,6 @@ p {
   margin: 0;
 }
 
-header {
-  background-color: black;
-  width: 100%;
-}
-
 .top-b {
   background: rgb(2, 0, 36);
   background: linear-gradient(133deg, rgb(2, 0, 36) 0%, rgb(101, 61, 35) 100%);
@@ -33,30 +24,13 @@ header {
   text-decoration: none;
 }
 
-.navbar {
-  width: 700px;
-}
-
-.contact-sales {
-  margin-left: 1rem;
-}
-
 .offcanvas-start {
   width: 100% !important;
   max-width: 100% !important;
   opacity: 90% !important;
 }
 
-.ft-box {
-  margin: 20px 2px 80px 2px;
-  border: 2px solid white;
-  border-radius: 10px;
-  height: 6.5rem;
-  width: 6rem;
-}
-
 .btn-secondary {
-  margin: 50px 20px 50px 20px;
   --bs-btn-active-bg: rgba(255, 255, 255, 0.2) !important;
   --bs-btn-color: #646262 !important;
   --bs-btn-bg: transparent !important;
