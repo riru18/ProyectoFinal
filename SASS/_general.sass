@@ -1,10 +1,10 @@
 section
     margin-top: 2rem
 
-h2
-    text-align: center
-    font-size: 5rem
-    font-weight: bolder
+.first
+    h2
+        font-size: 5rem
+        font-weight: bolder
 
 p 
     margin: 0
@@ -16,23 +16,39 @@ p
     width: 100%
     a
         color: white
-        font-weight: bold
         text-decoration: none
+    a:hover 
+        color: #dc3545
+        opacity: 80%
 
 .offcanvas-start
     width: 100% !important
     max-width: 100% !important
     opacity: 90% !important 
 
-.btn-secondary
-    --bs-btn-active-bg: rgba(255, 255, 255, 0.2) !important
-    --bs-btn-color: #646262 !important
-    --bs-btn-bg: transparent !important
-    --bs-btn-border-color: transparent !important
-    --bs-btn-hover-border-color: transparent !important
-    --bs-btn-active-border-color: transparent !important
-.btn-secondary:hover
-    color: #fff !important
-    background-color: rgba(255, 255, 255, 0.2) !important
+.offcanvas-body
+    .btn
+        --bs-btn-hover-bg: #ff5a6a 
+        --bs-btn-hover-border-color: #ff5a6a 
+    .btn-outline-danger
+        --bs-btn-color: #fff
+        --bs-btn-border-color: #fff
 
+.first
+    .btn-secondary
+        --bs-btn-active-bg: rgba(255, 255, 255, 0.2) !important
+        --bs-btn-color: #646262 !important
+        --bs-btn-bg: transparent !important
+        --bs-btn-border-color: transparent !important
+        --bs-btn-hover-border-color: transparent !important
+        --bs-btn-active-border-color: transparent !important
+        margin: 40px auto
+    .btn-secondary:hover
+        color: #fff !important
+        background-color: rgba(255, 255, 255, 0.2) !important
 
+section
+    .first
+        margin-bottom: 240px
+
+   
