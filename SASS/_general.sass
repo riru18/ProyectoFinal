@@ -1,13 +1,13 @@
+@import 'variables'
+@import 'mixin'
+
 section
     margin-top: 2rem
 
-.first
-    h2
-        font-size: 5rem
-        font-weight: bolder
-
 p 
     margin: 0
+img
+    border-radius: 15px
 
 .top-b
     background: rgb(2,0,36)
@@ -35,6 +35,9 @@ p
         --bs-btn-border-color: #fff
 
 .first
+    margin-bottom: $bottom
+    h2
+        @include title
     .btn-secondary
         --bs-btn-active-bg: rgba(255, 255, 255, 0.2) !important
         --bs-btn-color: #646262 !important
@@ -47,17 +50,13 @@ p
         color: #fff !important
         background-color: rgba(255, 255, 255, 0.2) !important
 
-section
-    .first
-        margin-bottom: 240px
-
 .devices
     padding: 80px 50px
 
 .second
     z-index: 1
     position: relative
-    margin-bottom: 240px
+    margin-bottom: $bottom
     .btn
         --bs-btn-color: #fff 
         --bs-btn-hover-color: #1fa36c
@@ -84,4 +83,16 @@ section
     font-size: 1.5rem
     font-weight: bold
 
-   
+.third
+    margin-bottom: $bottom
+    h2
+        @include title
+    p
+        font-size: 1.5rem
+        max-width: 800px
+.fourth
+    width: 100%
+
+
+ 
+

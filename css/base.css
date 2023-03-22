@@ -2,13 +2,12 @@ section {
   margin-top: 2rem;
 }
 
-.first h2 {
-  font-size: 5rem;
-  font-weight: bolder;
-}
-
 p {
   margin: 0;
+}
+
+img {
+  border-radius: 15px;
 }
 
 .top-b {
@@ -41,6 +40,14 @@ p {
   --bs-btn-border-color: #fff;
 }
 
+.first {
+  margin-bottom: 240px;
+}
+.first h2 {
+  font-size: 5rem;
+  font-weight: bolder;
+  max-width: 100%;
+}
 .first .btn-secondary {
   --bs-btn-active-bg: rgba(255, 255, 255, 0.2) !important;
   --bs-btn-color: #646262 !important;
@@ -53,10 +60,6 @@ p {
 .first .btn-secondary:hover {
   color: #fff !important;
   background-color: rgba(255, 255, 255, 0.2) !important;
-}
-
-section .first {
-  margin-bottom: 240px;
 }
 
 .devices {
@@ -97,4 +100,21 @@ section .first {
   text-transform: uppercase;
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.third {
+  margin-bottom: 240px;
+}
+.third h2 {
+  font-size: 5rem;
+  font-weight: bolder;
+  max-width: 100%;
+}
+.third p {
+  font-size: 1.5rem;
+  max-width: 800px;
+}
+
+.fourth {
+  width: 100%;
 }/*# sourceMappingURL=base.css.map */
