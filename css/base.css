@@ -162,6 +162,18 @@ footer .last a {
   margin: 10px;
 }
 
+.teams .list-group {
+  --bs-list-group-bg: transparent !important;
+  --bs-border-radius: 0;
+  --bs-list-group-item-padding-y: 2rem;
+}
+.teams img {
+  width: 150px;
+  height: 70px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 .links {
   position: sticky;
   top: 70px;
