@@ -194,12 +194,25 @@ footer .last a {
 .text {
   color: white;
 }
+.text a {
+  color: #dc3545;
+  text-decoration: none;
+}
+.text a:hover {
+  color: #ff5a6a;
+}
 .text p {
   margin-bottom: 24px;
 }
 .text h1 {
   margin-bottom: 40px;
+  font-weight: bolder;
 }
 .text h2 {
   margin-bottom: 20px;
+}
+.text .btn {
+  color: white;
+  --bs-btn-hover-bg: #ff5a6a;
+  --bs-btn-hover-border-color: #ff5a6a;
 }/*# sourceMappingURL=base.css.map */
