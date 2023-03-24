@@ -182,11 +182,11 @@ footer .last a {
   --bs-btn-border-color: #000000;
 }
 
-section {
+.security {
   padding-top: 40px;
   padding-bottom: 80px;
 }
-section .container {
+.security .container {
   max-width: 1000px;
   width: 100%;
 }
