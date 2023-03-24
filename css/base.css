@@ -160,4 +160,46 @@ footer .last {
 }
 footer .last a {
   margin: 10px;
+}
+
+.links {
+  position: sticky;
+  top: 70px;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 700px;
+  left: 30px;
+}
+.links .btn {
+  --bs-btn-hover-bg: #212121;
+  --bs-btn-hover-border-color: #212121;
+  --bs-btn-active-bg: #212121;
+  --bs-btn-active-border-color: #212121;
+  --bs-btn-padding-y: 10px;
+}
+.links .btn-outline-danger {
+  --bs-btn-color: #fff;
+  --bs-btn-border-color: #000000;
+}
+
+section {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+section .container {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.text {
+  color: white;
+}
+.text p {
+  margin-bottom: 24px;
+}
+.text h1 {
+  margin-bottom: 40px;
+}
+.text h2 {
+  margin-bottom: 20px;
 }/*# sourceMappingURL=base.css.map */
