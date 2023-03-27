@@ -151,6 +151,16 @@ img {
   aspect-ratio: auto;
 }
 
+.features-container-last {
+  margin-bottom: 160px;
+}
+.features-container-last .card-img-top {
+  border-radius: 10px;
+}
+.features-container-last .card {
+  width: 400px;
+}
+
 footer a {
   text-decoration: none;
   color: grey;
