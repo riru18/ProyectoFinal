@@ -46,7 +46,6 @@ img {
 .first h2 {
   font-size: 5rem;
   font-weight: bolder;
-  max-width: 100%;
 }
 .first .btn-secondary {
   --bs-btn-active-bg: rgba(255, 255, 255, 0.2) !important;
@@ -108,7 +107,6 @@ img {
 .third h2 {
   font-size: 5rem;
   font-weight: bolder;
-  max-width: 100%;
 }
 .third p {
   font-size: 1.5rem;
@@ -117,10 +115,6 @@ img {
 
 .fourth {
   margin-bottom: 240px;
-}
-
-.text-content {
-  width: 400px;
 }
 
 footer a {
