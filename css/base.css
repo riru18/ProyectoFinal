@@ -221,6 +221,31 @@ footer .last a {
      object-fit: contain;
 }
 
+.button-form {
+  padding: 10px 20px;
+  background-color: #232323;
+  border-radius: 30px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.button-form .btn {
+  --bs-btn-border-radius: 20px;
+}
+.button-form .custom-style {
+  background-color: transparent;
+  border: none;
+  padding: 0 10px;
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+.button-form .custom-style:focus {
+  outline: none;
+}
+
 .links {
   position: sticky;
   top: 70px;
