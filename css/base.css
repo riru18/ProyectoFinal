@@ -136,6 +136,9 @@ img {
   font-weight: bolder;
 }
 
+.cards-container {
+  margin-bottom: 160px;
+}
 .cards-container .card {
   --bs-card-bg: #121212;
 }
