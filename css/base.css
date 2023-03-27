@@ -144,6 +144,9 @@ img {
   margin-bottom: 160px;
 }
 .cards-container .card {
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
   --bs-card-bg: #121212;
 }
 .cards-container img {
