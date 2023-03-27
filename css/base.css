@@ -200,14 +200,20 @@ footer .last a {
   margin: 10px;
 }
 
+.teams .col {
+  padding: 0;
+}
+.teams .list-group-item {
+  padding: 5px;
+}
 .teams .list-group {
   --bs-list-group-bg: transparent !important;
   --bs-border-radius: 0;
   --bs-list-group-item-padding-y: 2rem;
 }
 .teams img {
-  width: 150px;
-  height: 70px;
+  width: 140px;
+  height: 60px;
   -o-object-fit: contain;
      object-fit: contain;
 }
