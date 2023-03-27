@@ -41,7 +41,7 @@ img {
 }
 
 .first {
-  margin-bottom: 240px;
+  margin-bottom: 160px;
 }
 .first h2 {
   font-size: 5rem;
@@ -68,7 +68,7 @@ img {
 .second {
   z-index: 1;
   position: relative;
-  margin-bottom: 240px;
+  margin-bottom: 160px;
 }
 .second .btn {
   --bs-btn-color: #fff;
@@ -102,7 +102,7 @@ img {
 }
 
 .third {
-  margin-bottom: 240px;
+  margin-bottom: 160px;
 }
 .third h2 {
   font-size: 5rem;
@@ -114,7 +114,7 @@ img {
 }
 
 .fourth {
-  margin-bottom: 240px;
+  margin-bottom: 160px;
 }
 .fourth p {
   max-width: 600px;
@@ -123,6 +123,26 @@ img {
   filter: grayscale(100%);
   opacity: 0.5;
   max-height: 36px;
+}
+
+.fifth {
+  margin-bottom: 160px;
+}
+.fifth p {
+  max-width: 600px;
+}
+.fifth h2 {
+  font-size: 5rem;
+  font-weight: bolder;
+}
+
+.cards-container .card {
+  --bs-card-bg: #121212;
+}
+.cards-container img {
+  width: 40px;
+  height: 40px;
+  aspect-ratio: auto;
 }
 
 footer a {
