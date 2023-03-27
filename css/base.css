@@ -222,6 +222,7 @@ footer .last a {
 }
 
 .button-form {
+  margin-bottom: 160px;
   padding: 10px 20px;
   background-color: #232323;
   border-radius: 30px;
