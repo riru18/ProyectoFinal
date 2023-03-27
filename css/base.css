@@ -116,6 +116,14 @@ img {
 .fourth {
   margin-bottom: 240px;
 }
+.fourth p {
+  max-width: 600px;
+}
+.fourth .images-cont img {
+  filter: grayscale(100%);
+  opacity: 0.5;
+  max-height: 36px;
+}
 
 footer a {
   text-decoration: none;
