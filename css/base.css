@@ -16,11 +16,11 @@ img {
   padding: 0.5rem;
   width: 100%;
 }
-.top-b a {
+.top-b p a {
   color: white;
   text-decoration: none;
 }
-.top-b a:hover {
+.top-b p a:hover {
   color: #dc3545;
   opacity: 80%;
 }
@@ -90,10 +90,10 @@ img {
   top: 0;
   left: 0;
   height: 100%;
-  border-radius: 20px;
+  border-radius: 30px;
   border-color: #fff;
   background-color: rgba(65, 65, 65, 0.763);
-  opacity: 70%;
+  opacity: 40%;
 }
 
 .title {
@@ -308,4 +308,16 @@ footer .last a {
   color: white;
   --bs-btn-hover-bg: #ff5a6a;
   --bs-btn-hover-border-color: #ff5a6a;
+}
+
+.card-round-download {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 30px;
+  border-color: #fff;
+  background-color: linear-gradient(332deg, rgba(111, 91, 39, 0.2) 100%, rgb(65, 65, 65) 15%, rgb(65, 65, 65) 87%, rgba(255, 90, 106, 0.2) 100%);
+  opacity: 40%;
 }/*# sourceMappingURL=base.css.map */

@@ -1,11 +1,22 @@
+@import 'variables'
 @mixin title()
     font-size: 5rem
     font-weight: bolder
     word-wrap: break-word
-
 
 @mixin left()
     padding-left: 80px
 
 @mixin right()
     padding-right: 80px
+
+@mixin round-card ($bg) 
+    position: absolute
+    z-index: -1
+    top: 0
+    left: 0
+    height: 100%
+    border-radius: 30px
+    border-color: #fff
+    background-color: $bg
+    opacity: 40%

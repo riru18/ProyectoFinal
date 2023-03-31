@@ -1,0 +1,11 @@
+.card-round-download {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 30px;
+  border-color: #fff;
+  background-color: linear-gradient(332deg, rgba(111, 91, 39, 0.2) 100%, rgb(65, 65, 65) 15%, rgb(65, 65, 65) 87%, rgba(255, 90, 106, 0.2) 100%);
+  opacity: 40%;
+}/*# sourceMappingURL=downloads.css.map */

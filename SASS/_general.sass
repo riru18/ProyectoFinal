@@ -14,12 +14,13 @@ img
     background: linear-gradient(133deg, rgba(2,0,36,1) 0%, rgba(101,61,35,1) 100%)
     padding: 0.5rem
     width: 100%
-    a
-        color: white
-        text-decoration: none
-    a:hover 
-        color: #dc3545
-        opacity: 80%
+    p
+        a
+            color: white
+            text-decoration: none
+        a:hover 
+            color: #dc3545
+            opacity: 80%
 
 .offcanvas-start
     width: 100% !important
@@ -68,15 +69,7 @@ img
         margin-top: 1.5rem
 
 .card-round
-    position: absolute
-    z-index: -1
-    top: 0
-    left: 0
-    height: 100%
-    border-radius: 20px
-    border-color: #fff
-    background-color: rgba(65, 65, 65, 0.763)
-    opacity: 70%
+    @include round-card ($bg-card-color)
 
 .title
     color: #fff !important
