@@ -44,7 +44,7 @@ img {
   margin-bottom: 160px;
 }
 .first h2 {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: bolder;
   word-wrap: break-word;
 }
@@ -90,6 +90,7 @@ img {
   border-color: #fff;
   background-color: rgba(65, 65, 65, 0.763);
   opacity: 0.4;
+  box-shadow: inset 0 1px 3px hsla(0, 0%, 100%, 0.15), inset 0 -1px 3px #000;
 }
 
 .title {
@@ -103,7 +104,7 @@ img {
   margin-bottom: 160px;
 }
 .third h2 {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: bolder;
   word-wrap: break-word;
 }
@@ -131,7 +132,7 @@ img {
   max-width: 600px;
 }
 .fifth h2 {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: bolder;
   word-wrap: break-word;
 }
@@ -306,6 +307,10 @@ footer .last a {
   --bs-btn-hover-border-color: #ff5a6a;
 }
 
+p {
+  max-width: 800px;
+}
+
 .card-round-download {
   position: absolute;
   z-index: -1;
@@ -314,16 +319,12 @@ footer .last a {
   height: 100%;
   border-radius: 30px;
   border-color: #fff;
-  background: radial-gradient(circle at top left, rgba(246, 105, 66, 0.05) 10%, transparent 40%), radial-gradient(circle at bottom right, rgba(250, 219, 95, 0.05) 10%, transparent 50%);
-  filter: brightness(50) opacity(1);
-}
-
-.first-download p {
-  max-width: 800px;
+  box-shadow: inset 0 1px 3px hsla(0, 0%, 100%, 0.15), inset 0 -1px 3px #000;
+  background: hsla(0, 0%, 100%, 0.04);
 }
 
 .downloads-title {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: bolder;
   word-wrap: break-word;
 }
@@ -337,4 +338,26 @@ footer .last a {
 
 .downloads-email p {
   max-width: 800px;
+}
+
+.downloads-second {
+  margin-bottom: 160px;
+}
+.downloads-second .card {
+  color: white;
+  padding: 40px 90px;
+  border-radius: 30px;
+  border: none;
+  --bs-card-bg: $bg-card-colorful;
+  background: hsla(0, 0%, 100%, 0.04);
+  box-shadow: inset 0 1px 3px hsla(0, 0%, 100%, 0.15), inset 0 -1px 3px #000;
+}
+.downloads-second .card h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.downloads-second img {
+  width: 40px;
+  height: 40px;
+  aspect-ratio: auto;
 }/*# sourceMappingURL=base.css.map */
