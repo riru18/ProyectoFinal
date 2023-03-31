@@ -319,5 +319,25 @@ footer .last a {
   border-radius: 30px;
   border-color: #fff;
   background: radial-gradient(circle at top left, rgba(246, 105, 66, 0.05) 10%, transparent 40%), radial-gradient(circle at bottom right, rgba(250, 219, 95, 0.05) 10%, transparent 50%);
-  opacity: 1;
+  filter: brightness(50) opacity(1);
+}
+
+.first-download h2 {
+  font-size: 5rem;
+  font-weight: bolder;
+  word-wrap: break-word;
+}
+.first-download p {
+  max-width: 800px;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, rgb(246, 73, 66) 0%, rgb(239, 144, 164) 50%, rgb(91, 149, 176) 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent !important;
+}
+
+.downloads-email p {
+  max-width: 800px;
 }/*# sourceMappingURL=base.css.map */
