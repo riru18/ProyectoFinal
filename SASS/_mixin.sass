@@ -10,7 +10,7 @@
 @mixin right()
     padding-right: 80px
 
-@mixin round-card ($bg) 
+@mixin round-card ($bg,$opacity) 
     position: absolute
     z-index: -1
     top: 0
@@ -19,4 +19,15 @@
     border-radius: 30px
     border-color: #fff
     background-color: $bg
-    opacity: 40%
+    opacity: $opacity
+
+@mixin round-card-download ($bgc,$opacity) 
+    position: absolute
+    z-index: -1
+    top: 0
+    left: 0
+    height: 100%
+    border-radius: 30px
+    border-color: #fff
+    background: $bgc
+    opacity: $opacity

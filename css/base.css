@@ -93,7 +93,7 @@ img {
   border-radius: 30px;
   border-color: #fff;
   background-color: rgba(65, 65, 65, 0.763);
-  opacity: 40%;
+  opacity: 0.4;
 }
 
 .title {
@@ -318,6 +318,6 @@ footer .last a {
   height: 100%;
   border-radius: 30px;
   border-color: #fff;
-  background-color: linear-gradient(332deg, rgba(111, 91, 39, 0.2) 100%, rgb(65, 65, 65) 15%, rgb(65, 65, 65) 87%, rgba(255, 90, 106, 0.2) 100%);
-  opacity: 40%;
+  background: radial-gradient(circle at top left, rgba(246, 105, 66, 0.05) 10%, transparent 40%), radial-gradient(circle at bottom right, rgba(250, 219, 95, 0.05) 10%, transparent 50%);
+  opacity: 1;
 }/*# sourceMappingURL=base.css.map */
