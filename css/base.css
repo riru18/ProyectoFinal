@@ -378,4 +378,14 @@ p {
 }
 .FAQ .accordion {
   --bs-accordion-bg: black;
+  --bs-accordion-border-color: none;
+  --bs-accordion-btn-color: white;
+  --bs-accordion-btn-focus-border-color: none;
+  --bs-accordion-btn-focus-box-shadow: none;
+  --bs-accordion-active-color: white;
+  --bs-accordion-active-bg: black;
+}
+.FAQ .accordion p {
+  max-width: 400px;
+  font-weight: bold;
 }/*# sourceMappingURL=base.css.map */
