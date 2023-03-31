@@ -5,10 +5,12 @@
     @include round-card-download ($bg-card-colorful,1)
 
 .first-download
-    h2
-        @include title
     p
         max-width: 800px
+
+.downloads-title
+    @include title    
+
 .text-gradient            
     background: linear-gradient(90deg, rgba(246,73,66,1) 0%, rgba(239,144,164,1) 50%, rgba(91,149,176,1) 100%) 
     background-clip: text 
@@ -17,3 +19,4 @@
 .downloads-email
     p
         max-width: 800px
+

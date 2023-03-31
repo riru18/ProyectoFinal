@@ -318,13 +318,14 @@ footer .last a {
   filter: brightness(50) opacity(1);
 }
 
-.first-download h2 {
+.first-download p {
+  max-width: 800px;
+}
+
+.downloads-title {
   font-size: 5rem;
   font-weight: bolder;
   word-wrap: break-word;
-}
-.first-download p {
-  max-width: 800px;
 }
 
 .text-gradient {
