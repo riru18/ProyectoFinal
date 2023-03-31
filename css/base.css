@@ -369,4 +369,13 @@ p {
   width: 40px;
   height: 40px;
   aspect-ratio: auto;
+}
+
+.FAQ a {
+  text-decoration: none;
+  color: white;
+  text-decoration: underline;
+}
+.FAQ .accordion {
+  --bs-accordion-bg: black;
 }/*# sourceMappingURL=base.css.map */
