@@ -434,10 +434,10 @@ p {
   outline: none;
 }
 
-.sign-up {
+a {
   text-decoration: none;
   color: inherit;
 }
-.sign-up:hover {
+a:hover {
   text-decoration: underline;
 }/*# sourceMappingURL=base.css.map */
