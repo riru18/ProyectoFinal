@@ -345,7 +345,7 @@ p {
 }
 .downloads-second .card {
   color: white;
-  padding: 40px 90px;
+  padding: 40px 60px;
   border-radius: 30px;
   border: none;
   --bs-card-bg: $bg-card-colorful;
