@@ -237,16 +237,16 @@ footer .last a {
   --bs-btn-border-radius: 20px;
 }
 .button-form .custom-style {
-  background-color: transparent;
-  border: none;
-  padding: 0 10px;
-  width: 150px;
-  margin: 0;
   font-size: inherit;
   font-family: inherit;
   line-height: inherit;
   color: inherit;
   text-decoration: none;
+  background-color: transparent;
+  border: none;
+  padding: 0 10px;
+  width: 150px;
+  margin: 0;
 }
 .button-form .custom-style:focus {
   outline: none;
@@ -400,10 +400,38 @@ p {
   color: white;
 }
 .login .container .card .card-text {
-  width: 400px;
+  width: 350px;
 }
 .login .container .card .btn {
-  border-radius: 15px;
+  padding-left: 70px;
+  padding-right: 70px;
+  border-radius: 25px;
+  margin: 2px;
+  --bs-btn-hover-border-color: grey;
+}
+.login .container .card .btn-black {
+  color: white;
+  --bs-btn-bg: black;
+  --bs-btn-hover-bg: black;
+}
+.login .container .card i {
+  margin-right: 5px;
+}
+.login .container .card .custom-style {
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  color: inherit;
+  text-decoration: none;
+  background-color: rgba(var(--bs-dark-rgb));
+  border-radius: 10px;
+  border: solid 2px #2f2f30;
+  padding: 6px 10px;
+  width: 334px;
+  margin: 0;
+}
+.login .container .card .custom-style:focus {
+  outline: none;
 }
 
 .sign-up {

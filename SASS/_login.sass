@@ -1,3 +1,4 @@
+@import 'mixin'
 .login
     .container
         min-height: 100dvh
@@ -10,9 +11,30 @@
             h5
                 color: white
             .card-text
-                width: 400px
+                width: 350px
             .btn
-                border-radius: 15px
+                padding-left: 70px
+                padding-right: 70px
+                border-radius: 25px
+                margin: 2px
+                --bs-btn-hover-border-color: grey
+            .btn-black
+                color: white
+                --bs-btn-bg: black
+                --bs-btn-hover-bg: black
+            i
+                margin-right: 5px
+            .custom-style
+                @include input-forms
+                background-color: rgba(var(--bs-dark-rgb))
+                border-radius: 10px
+                border: solid 2px #2f2f30
+                padding: 6px 10px
+                width: 334px
+                margin: 0
+                &:focus
+                    outline: none        
+                
 .sign-up
     text-decoration: none
     color: inherit
