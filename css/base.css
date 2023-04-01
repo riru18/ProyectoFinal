@@ -393,7 +393,10 @@ p {
   --bs-card-bg: #121212;
 }
 
-.sign-up a {
-  text-decoration: none !important;
-  color: white !important;
+.sign-up {
+  text-decoration: none;
+  color: inherit;
+}
+.sign-up:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=base.css.map */
