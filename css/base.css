@@ -1,4 +1,4 @@
-section {
+.first-section {
   margin-top: 2rem;
 }
 
@@ -365,11 +365,6 @@ p {
   --bs-btn-hover-color: #223d77;
   --bs-btn-font-size: 3rem;
 }
-.downloads-second img {
-  width: 40px;
-  height: 40px;
-  aspect-ratio: auto;
-}
 
 .FAQ a {
   text-decoration: none;
@@ -388,4 +383,17 @@ p {
 .FAQ .accordion p {
   max-width: 400px;
   font-weight: bold;
+}
+
+.login .container {
+  min-height: 100dvh;
+}
+.login .container .card {
+  border-radius: 20px;
+  --bs-card-bg: #121212;
+}
+
+.sign-up a {
+  text-decoration: none !important;
+  color: white !important;
 }/*# sourceMappingURL=base.css.map */
