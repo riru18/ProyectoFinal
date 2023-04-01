@@ -402,14 +402,14 @@ p {
 .login .container .card .card-text {
   width: 350px;
 }
-.login .container .card .btn {
-  padding-left: 70px;
-  padding-right: 70px;
+.login .container .card .buttons-l .btn {
+  padding-left: 60px;
+  padding-right: 60px;
   border-radius: 25px;
   margin: 2px;
   --bs-btn-hover-border-color: grey;
 }
-.login .container .card .btn-black {
+.login .container .card .buttons-l .btn-black {
   color: white;
   --bs-btn-bg: black;
   --bs-btn-hover-bg: black;
@@ -432,6 +432,9 @@ p {
 }
 .login .container .card .custom-style:focus {
   outline: none;
+}
+.login .container .card .btn {
+  width: 334px;
 }
 
 a {
