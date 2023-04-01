@@ -392,6 +392,19 @@ p {
   border-radius: 20px;
   --bs-card-bg: #121212;
 }
+.login .container .card img {
+  max-height: 50px;
+  max-width: 50px;
+}
+.login .container .card h5 {
+  color: white;
+}
+.login .container .card .card-text {
+  width: 400px;
+}
+.login .container .card .btn {
+  border-radius: 15px;
+}
 
 .sign-up {
   text-decoration: none;
